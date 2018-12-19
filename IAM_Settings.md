@@ -35,7 +35,7 @@ You have requested more instances (1) than your current instance limit of 0 allo
 ---
 참고 : 분석 환경을 위한 인스턴스 대표 유형 리스트
 
-1) 일반 분석용
+## 1) 일반 분석용
 
 |모델|vCPU|시간당 CPU 크레딧|메모리(GiB)|스토리지|네트워크 성능(Gbps)|가격(USD/hr)|
 |---|---|---|---|---|---|---|
@@ -54,7 +54,7 @@ You have requested more instances (1) than your current instance limit of 0 allo
 |t2.xlarge|4|54|16|EBS 전용|중간|0.1856|
 |t2.2xlarge|8|81|32|EBS 전용|중간|0.3712|
 
-2) 고성능 CPU를 활용한 분석
+## 2) 고성능 CPU를 활용한 분석
 
  |모델|vCPU|메모리(GiB)|스토리지(GiB)|전용 EBS 대역폭(Mbps)|네트워크 성능(Gbps)|가격(USD/hr)|
 |---|---|---|---|---|---|---|
@@ -82,7 +82,7 @@ You have requested more instances (1) than your current instance limit of 0 allo
 |c4.4xlarge|16|30|EBS 전용|2,000|높음|0.796|
 |c4.8xlarge|36|60|EBS 전용|4,000|10기가비트|1.591|
 
-3) 고성능 GPU+CPU를 활용한 분석
+## 3) 고성능 GPU+CPU를 활용한 분석
 
 |모델|GPU|vCPU|메모리(GiB)|GPU 메모리(GiB)|GPU P2P|가격(USD/hr)|
 |---|---|---|---|---|---|---|
